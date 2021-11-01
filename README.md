@@ -5,7 +5,7 @@
      different protocols.  
    • import urlib.request: The urllib.request module defines functions and classes
      which help in opening URLs (mostly HTTP) in a complex world — basic and
-     digest authentication, redirections, cookies and more.
+     digest authentication, redirections, cookies and more. \n
    • urlib.request.urlopen(url): Open the URL url, which can be either a string or
      a Request object.
    • time.time(): The time() function returns the number of seconds passed since
@@ -20,7 +20,7 @@
      Selenium is a powerful tool for controlling web browsers through programs and 
      performing browser automation. It is functional for all browsers,
      works on all major OS and its scripts are written in various languages i.e Python,
-     Java, C#, etc, we will be working with Python.
+     Java, C#, etc, we will be working with Python.\n
    • From selenium import webdriver: Selenium WebDriver is a web framework that permits 
      you to execute cross-browser tests. This tool is used for automating
      web-based application testing to verify that it performs expectedly.
