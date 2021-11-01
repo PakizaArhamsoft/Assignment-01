@@ -38,15 +38,15 @@
    • driver.execute_script(“”): Use the browser Navigation Timing API to get some numbers.
 
 ## Method 03 :
-   • import requests: requests will allow you to send HTTP/1.1 requests using Python. With it, 
-   you can add content like headers, form data, multipart files, and parameters via simple Python 
-   libraries. It also allows you to access the response data of Python in the same way.
+   • import requests: requests will allow you to send HTTP/1.1 requests using Python. With 
+   it,you can add content like headers, form data, multipart files, and parameters via simple 
+   Python libraries. It also allows you to access the response data of Python in the same way.
    
    • requests.get(url): It get the url link and load the data of url web response.
    
-   • response.elapsed: response.elapsed returns a timedelta object with the time elapsed from sending 
-   the request to the arrival of the response. It is often used to stop the connection after a certain 
-   point of time is “elapsed”.
+   • response.elapsed: response.elapsed returns a timedelta object with the time elapsed from 
+   sending the request to the arrival of the response. It is often used to stop the connection after 
+   a certain point of time is “elapsed”.
    
 • Input:
     Enter the string url and choose one library for running the program to measure the load time of web. 
@@ -68,14 +68,16 @@
         ◦ ncols: (int, optional)
              The width of the entire output message. If specified, dynamically resizes the progressbar to 
              stay within this bound. If unspecified, attempts to use environment width. The fallback is a 
-             meter width of 10 and no limit for the counter and statistics. If 0, will not print any meter (only stats).
+             meter width of 10 and no limit for the counter and statistics. If 0, will not print any meter 
+             (only stats).
         ◦ desc: (str, optional)
              Prefix or text message for the progressbar.
         ◦ initial: (int or float, optional)
              The initial counter value. Useful when restarting a progress bar [default: 0]. If using float, 
              consider specifying {n:.3f} or similar in bar_format, or specifying unit_scale.
         ◦ miniters: (int or float, optional)
-             Minimum progress display update interval, in iterations. If 0 and dynamic_miniters, will automatically 
-             adjust to equal min interval. If > 0, will skip display of specified number of iterations.
+             Minimum progress display update interval, in iterations. If 0 and dynamic_miniters, 
+             will automatically adjust to equal min interval. If > 0, will skip display of specified number 
+             of iterations.
         ◦ colour: (str, optional)
              Bar colour (e.g: 'yellow', 'ffff00').
