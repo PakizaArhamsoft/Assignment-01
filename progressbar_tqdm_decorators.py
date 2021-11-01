@@ -50,6 +50,7 @@ def show_progressbar(func):
 
 
 if __name__ == '__main__':
+    @show_progressbar
     def prog_bar(iterable=range(2500), desc="Please wait to  run the "
                                             "ProgressBar!!", total=None, leave=True,
                  file=None, ncols=150, mininterval=5,
@@ -61,8 +62,6 @@ if __name__ == '__main__':
                       maxinterval=maxinterval,
                       miniters=miniters, unit=unit,  colour=colour):
             time.sleep(.1)
-
-    prog_bar = show_progressbar(prog_bar)
 
     print("""
     Enter the tqdm parameters while you want......
