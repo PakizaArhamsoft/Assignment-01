@@ -1,5 +1,5 @@
 #  Measure time to load web page
-## Method 01:
+### Method 01:
    • urllib: urllib package is the URL handling module for python. It is used to fetch
      URLs. It uses the urlopen function and is able to fetch URLs using a variety of
      different protocols.  
@@ -19,7 +19,7 @@
     time. This is equivalent to asctime(localtime(seconds)). When the time tuple is
     not present, current time as returned by localtime() is used.
 
-## Method 02 :
+### Method 02 :
    • install selenium library: Run this command on terminal “pip install selenium”. 
      Selenium is a powerful tool for controlling web browsers through programs and 
      performing browser automation. It is functional for all browsers,
@@ -37,7 +37,7 @@
    
    • driver.execute_script(“”): Use the browser Navigation Timing API to get some numbers.
 
-## Method 03 :
+### Method 03 :
    • import requests: requests will allow you to send HTTP/1.1 requests using Python. With 
    it,you can add content like headers, form data, multipart files, and parameters via simple 
    Python libraries. It also allows you to access the response data of Python in the same way.
@@ -63,7 +63,7 @@
      • import time: This module provides various time-related functions. For related functionality, 
        see also the sleep, datetime and calendar modules.
      • tqdm syntax: tqdm(iterable)
-## Parameters in tqdm:
+### Parameters in tqdm:
         ◦ Iterable: It can be a range, a list whose progress we have to check.
         ◦ ncols: (int, optional)
              The width of the entire output message. If specified, dynamically resizes the progressbar to 
