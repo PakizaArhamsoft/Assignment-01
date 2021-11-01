@@ -55,29 +55,29 @@
     Program prints the load time of web in minutes.
 
 #  Make progress bar using ‘tqdm’
-     • install tqdm library: Run this command on terminal “pip install tqdm”. “tqdm” is a Python 
-       library that allows you to output a smart progress bar by wrapping around any iterable. A 
-       tqdm progress bar not only shows you how much time has elapsed, but also shows the estimated 
-       time remaining for the iterable.
-       
-     • import time: This module provides various time-related functions. For related functionality, 
-       see also the sleep, datetime and calendar modules.
-     • tqdm syntax: tqdm(iterable)
+  • install tqdm library: Run this command on terminal “pip install tqdm”. “tqdm” is a Python 
+    library that allows you to output a smart progress bar by wrapping around any iterable. A 
+    tqdm progress bar not only shows you how much time has elapsed, but also shows the estimated 
+    time remaining for the iterable.
+
+  • import time: This module provides various time-related functions. For related functionality, 
+    see also the sleep, datetime and calendar modules.
+  • tqdm syntax: tqdm(iterable)
 ### Parameters in tqdm:
-        ◦ Iterable: It can be a range, a list whose progress we have to check.
-        ◦ ncols: (int, optional)
-             The width of the entire output message. If specified, dynamically resizes the progressbar to 
-             stay within this bound. If unspecified, attempts to use environment width. The fallback is a 
-             meter width of 10 and no limit for the counter and statistics. If 0, will not print any meter 
-             (only stats).
-        ◦ desc: (str, optional)
-             Prefix or text message for the progressbar.
-        ◦ initial: (int or float, optional)
-             The initial counter value. Useful when restarting a progress bar [default: 0]. If using float, 
-             consider specifying {n:.3f} or similar in bar_format, or specifying unit_scale.
-        ◦ miniters: (int or float, optional)
-             Minimum progress display update interval, in iterations. If 0 and dynamic_miniters, 
-             will automatically adjust to equal min interval. If > 0, will skip display of specified number 
-             of iterations.
-        ◦ colour: (str, optional)
-             Bar colour (e.g: 'yellow', 'ffff00').
+  ◦ Iterable: It can be a range, a list whose progress we have to check.
+  ◦ ncols: (int, optional)
+       The width of the entire output message. If specified, dynamically resizes the progressbar to 
+       stay within this bound. If unspecified, attempts to use environment width. The fallback is a 
+       meter width of 10 and no limit for the counter and statistics. If 0, will not print any meter 
+       (only stats).
+  ◦ desc: (str, optional)
+       Prefix or text message for the progressbar.
+  ◦ initial: (int or float, optional)
+       The initial counter value. Useful when restarting a progress bar [default: 0]. If using float, 
+       consider specifying {n:.3f} or similar in bar_format, or specifying unit_scale.
+  ◦ miniters: (int or float, optional)
+       Minimum progress display update interval, in iterations. If 0 and dynamic_miniters, 
+       will automatically adjust to equal min interval. If > 0, will skip display of specified number 
+       of iterations.
+  ◦ colour: (str, optional)
+       Bar colour (e.g: 'yellow', 'ffff00').
