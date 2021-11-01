@@ -63,7 +63,20 @@ if __name__ == '__main__':
             time.sleep(.1)
 
     prog_bar = show_progressbar(prog_bar)
-    prog_bar(iterable=range(2500), desc="Please wait to "
-                                        "run the ProgressBar!!", ncols=150, mininterval=5,
-             maxinterval=0.1, miniters=10, unit='it', colour="yellow")
+
+    print("""
+    Enter the tqdm parameters while you want......
+    If you want to add press 'y' ,otherwise enter 'n'
+    """)
+    option = input("Want to add? ")
+    parameters = []
+    while option.casefold() == 'y':
+        # parameters are e.g: iterable=range(2500), desc="Please wait to "
+        #                               "run the ProgressBar!!", ncols=150, mininterval=5,
+        #             maxinterval=0.1, miniters=10, unit='it', colour="yellow"
+        parameters .append(input("Enter parameter: "))      
+        option = input("Want to add? ")
+        
+    prog_bar(parameters)
     print("***Thanks for your time!!!***")
+
