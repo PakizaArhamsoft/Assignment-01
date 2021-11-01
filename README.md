@@ -1,5 +1,4 @@
-# Task 01:
-             # "Measure time to load page"
+# Task 01:        "Measure time to load page"
 ## Method 01:
    • urllib: urllib package is the URL handling module for python. It is used to fetch
      URLs. It uses the urlopen function and is able to fetch URLs using a variety of
@@ -44,8 +43,7 @@
 • Expected output:
     Program prints the load time of web in minutes.
 
-# Task 02:
-        #  "Make progress bar using ‘tqdm’"
+# Task 02:         "Make progress bar using ‘tqdm’" 
      • install tqdm library: Run this command on terminal “pip install tqdm”. “tqdm” is a Python 
        library that allows you to output a smart progress bar by wrapping around any iterable. A 
        tqdm progress bar not only shows you how much time has elapsed, but also shows the estimated 
