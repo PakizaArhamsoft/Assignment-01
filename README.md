@@ -62,6 +62,7 @@
 
   • import time: This module provides various time-related functions. For related functionality, 
     see also the sleep, datetime and calendar modules.
+    
   • tqdm syntax: tqdm(iterable)
 ### Parameters in tqdm:
   ◦ Iterable: It can be a range, a list whose progress we have to check.
