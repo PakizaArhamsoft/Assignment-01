@@ -47,8 +47,10 @@
    • response.elapsed: response.elapsed returns a timedelta object with the time elapsed from sending 
    the request to the arrival of the response. It is often used to stop the connection after a certain 
    point of time is “elapsed”.
+   
 • Input:
     Enter the string url and choose one library for running the program to measure the load time of web. 
+    
 • Expected output:
     Program prints the load time of web in minutes.
 
