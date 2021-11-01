@@ -1,4 +1,4 @@
-# Task 01:        "Measure time to load page"
+# Task 01:        "Measure time to load web page"
 ## Method 01:
    • urllib: urllib package is the URL handling module for python. It is used to fetch
      URLs. It uses the urlopen function and is able to fetch URLs using a variety of
