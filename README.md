@@ -2,8 +2,7 @@
 ## Method 01:
    • urllib: urllib package is the URL handling module for python. It is used to fetch
      URLs. It uses the urlopen function and is able to fetch URLs using a variety of
-     different protocols.
-     
+     different protocols.  
    • import urlib.request: The urllib.request module defines functions and classes
      which help in opening URLs (mostly HTTP) in a complex world — basic and
      digest authentication, redirections, cookies and more.
