@@ -85,14 +85,18 @@ class ProgressBar:
 
 if __name__ == '__main__':
     prog_bar = ProgressBar()
-    for i in prog_bar.show_progressbar(iterable=range(2500), desc="Please wait to "
-                                                                 "run the ProgressBar!!",total= None,
-                                       leave=True, file=None, ncols=150, mininterval=5,
-                                       maxinterval=0.1, miniters=10, ascii=None, disable=False,
-                                       unit='it', unit_scale=False, dynamic_ncols=False,
-                                       smoothing=0.3, bar_format=None, initial=0, position
-                                       =None, postfix=None, unit_divisor=1000, write_bytes=None,
-                                       lock_args=None, nrows=None, colour="yellow",
-                                       delay=0, gui=False):
-        time.sleep(.1)
-    print("***Thanks for your time!!!***")
+    try:
+        for i in prog_bar.show_progressbar(iterable=range(2500), desc="Please wait to "
+                                                                     "run the ProgressBar!!",total= None,
+                                           leave=True, file=None, ncols=150, mininterval=5,
+                                           maxinterval=0.1, miniters=10, ascii=None, disable=False,
+                                           unit='it', unit_scale=False, dynamic_ncols=False,
+                                           smoothing=0.3, bar_format=None, initial=0, position
+                                           =None, postfix=None, unit_divisor=1000, write_bytes=None,
+                                           lock_args=None, nrows=None, colour="yellow",
+                                           delay=0, gui=False):
+            time.sleep(.1)
+        print("***Thanks for your time!!!***")
+    except Exception as e:
+        print("Error: ", e)
+
